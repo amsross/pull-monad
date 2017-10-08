@@ -7,12 +7,21 @@
   },
   "main": "index.js",
   "scripts": {
+    "test": "npm run test:lint && npm run test:tape",
+    "test:lint": "./node_modules/.bin/standard",
+    "test:tape": "./node_modules/.bin/tape *.spec.js | ./node_modules/.bin/tap-spec"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "fantasy-land": "^3.3.0",
+    "pull-stream": "^3.6.1"
   },
   "devDependencies": {
+    "nodemon": "^1.12.1",
+    "standard": "^10.0.3",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.8.0"
   }
 }
