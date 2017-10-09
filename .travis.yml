@@ -1,9 +1,13 @@
 language: node_js
 node_js:
   - "lts/*"
-  - "8"
-  - "7"
-  - "6"
-cache:
-  directories:
-    - "node_modules"
+  - '8'
+  - '7'
+  - '6'
+before_script:
+  - npm prune
+after_success:
+  - npm run semantic-release
+branches:
+  except:
+    - /^v\d+\.\d+\.\d+$/

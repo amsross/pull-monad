@@ -1,6 +1,6 @@
 {
   "name": "pull-monad",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "",
   "engines": {
     "node": ">=6"
@@ -9,7 +9,8 @@
   "scripts": {
     "test": "npm run test:lint && npm run test:tape",
     "test:lint": "./node_modules/.bin/standard",
-    "test:tape": "./node_modules/.bin/tape *.spec.js | ./node_modules/.bin/tap-spec"
+    "test:tape": "./node_modules/.bin/tape *.spec.js | ./node_modules/.bin/tap-spec",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +23,11 @@
     "nodemon": "^1.12.1",
     "standard": "^10.0.3",
     "tap-spec": "^4.1.1",
-    "tape": "^4.8.0"
+    "tape": "^4.8.0",
+    "semantic-release": "^8.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amsross/pull-monad.git"
   }
 }
