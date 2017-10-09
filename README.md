@@ -1,5 +1,7 @@
 # pull-monad
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/amsross/pull-monad.svg)](https://greenkeeper.io/)
+
 Monadic functions for pull-streams
 
 These are the methods that make something "monadic." These functions and their
