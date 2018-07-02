@@ -24,7 +24,7 @@
     "standard": "^11.0.0",
     "tap-spec": "^5.0.0",
     "tape": "^4.8.0",
-    "semantic-release": "^15.0.0"
+    "semantic-release": "^15.6.1"
   },
   "repository": {
     "type": "git",
