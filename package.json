@@ -16,7 +16,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fantasy-land": "^3.3.0",
+    "fantasy-land": "^4.0.0",
     "pull-stream": "^3.6.1"
   },
   "devDependencies": {
