@@ -23,7 +23,7 @@
     "nodemon": "^2.0.0",
     "standard": "^14.3.0",
     "tap-spec": "^5.0.0",
-    "tape": "^4.8.0",
+    "tape": "^5.0.1",
     "semantic-release": "^17.0.4"
   },
   "repository": {
